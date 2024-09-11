@@ -57,7 +57,7 @@
   .glassmorph {
     width: auto;
     
-    Glassmorphic Traits Recycled from another project */
+    /* Glassmorphic Traits Recycled from another project */
     background: linear-gradient(90deg, rgba(155,79,150,0.9) 0%, rgba(130,191,197,0.5) 100%);
     border: 2px solid rgba( 255, 255, 255, 0.18 );
     box-shadow: 0 0.3cm 0.5cm 0 rgba( 31, 38, 135, 0.37);
