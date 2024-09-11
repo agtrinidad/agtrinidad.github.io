@@ -2,18 +2,12 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-   html {
-    scroll-behavior: smooth;
-    overflow: hidden;
-    
-    animation: fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  
   body{
-    background-color: #272727;
-    background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(30,20,30,1) 25%, rgba(58,58,58,1) 100%);
+    background-color: #EEE;
+    /* background: linear-gradient(90deg, 
+                              rgba(39,39,39,1) 0%, 
+                              rgba(30,20,30,1) 25%, 
+                              rgba(58,58,58,1) 100%); */
     
     /* Bramus mouse tracking function */
     /* background-image: radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #3a3a3a, #272727); */
@@ -23,26 +17,9 @@
     color: #F7F7FF;
     font-family: "Raleway";
     vertical-align:middle;
-    
   
   }
-  
-  #dynamicbg {
-    position:fixed;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    /* background: url("IMG/nyback_jlottering.jpg"); */
-    
-    filter: blur(6px) opacity(15%) saturate(1);
-    -webkit-filter: blur(6px) opacity(15%) saturate(1);
-    
-    background-position: center;
-    animation: fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
+
   
   #index {
     position: fixed;
@@ -58,9 +35,14 @@
     width: auto;
     
     /* Glassmorphic Traits Recycled from another project */
-    background: linear-gradient(90deg, rgba(155,79,150,0.9) 0%, rgba(130,191,197,0.5) 100%);
-    border: 2px solid rgba( 255, 255, 255, 0.18 );
-    box-shadow: 0 0.3cm 0.5cm 0 rgba( 31, 38, 135, 0.37);
+    background: linear-gradient(90deg, rgba(155,79,150,0.7) 0%, rgba(130,191,197,0.2) 100%);
+    border: 2px solid rgba( 255, 255, 255, 0.12 );
+    box-shadow: 0 0.3cm 0.3cm 0 rgba( 31, 38, 135, 0.1);
+    padding: 4vw;
+    -webkit-border-radius: 5vw;
+    -moz-border-radius: 5vw;
+    border-radius: 5vw;
+    margin:4vw;
     
   }
 
@@ -70,7 +52,7 @@
   
   @font-face {
        font-family: "Raleway";
-       src: url("FONT/Raleway-VariableFont_wght.ttf") format('truetype');
+       src: url("Font/Raleway-VariableFont_wght.ttf") format('truetype');
   }
   
   
