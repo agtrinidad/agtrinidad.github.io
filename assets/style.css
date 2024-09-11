@@ -14,19 +14,36 @@
     
     height: 100vh;
     width: 100vw;
-    color: #F7F7FF;
+    color: #435;
     font-family: "Raleway";
     vertical-align:middle;
   
   }
 
+  hr {
+    color: #111;
+  }
+
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    /* header nonsense starts here */
+    margin-top: 0;
+    font-weight: 900;
+}
+  h2 {
+    font-weight: 800;
+  }
+
   
   #index {
     position: fixed;
-    height:200%;
+    height: 100%;
     width: 80vw;
+
     overflow: auto;
-    margin: 0.65cm 10% 400%;
+    margin: 0.65cm;
+    padding: 0.65cm;
+    align-items: center;
+    justify-content: center;
     
   }
   
@@ -35,15 +52,44 @@
     width: auto;
     
     /* Glassmorphic Traits Recycled from another project */
-    background: linear-gradient(90deg, rgba(155,79,150,0.7) 0%, rgba(130,191,197,0.2) 100%);
+    background: linear-gradient(90deg, var(--bxPurple) 0%, var(--bxBlue) 120%);
     border: 2px solid rgba( 255, 255, 255, 0.12 );
     box-shadow: 0 0.3cm 0.3cm 0 rgba( 31, 38, 135, 0.1);
-    padding: 4vw;
-    -webkit-border-radius: 5vw;
-    -moz-border-radius: 5vw;
-    border-radius: 5vw;
-    margin:4vw;
+    padding: 2vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    -webkit-border-radius: 2vw;
+    -moz-border-radius: 2vw;
+    border-radius: 2vw;
+    margin: 1vw;
+    line-height:12px;
+
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0em;
+
+    transition: 
+      --bxPurple 0.41s ease-in;
+      letter-spacing: 0.41s ease-in;
     
+  }
+
+  .glassmorph:hover {
+    --bxPurple: rgba(155,79,150,0.3);
+    letter-spacing: 0.1em;
+  }
+
+  /*abusing property loopholes*/
+  @property --bxPurple {
+    syntax: '<color>';
+    initial-value: rgba(155,79,150,0.03);
+    inherits: False;
+  }
+
+  @property --bxBlue {
+    syntax: '<color>';
+    initial-value: rgba(130,191,197,0.2);
+    inherits: False;
   }
 
   /* Customization */
