@@ -1,0 +1,79 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+   html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+    
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  body{
+    background-color: #272727;
+    background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(30,20,30,1) 25%, rgba(58,58,58,1) 100%);
+    
+    /* Bramus mouse tracking function */
+    /* background-image: radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #3a3a3a, #272727); */
+    
+    height: 100vh;
+    width: 100vw;
+    color: #F7F7FF;
+    font-family: "Raleway";
+    vertical-align:middle;
+    
+  
+  }
+  
+  #dynamicbg {
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    /* background: url("IMG/nyback_jlottering.jpg"); */
+    
+    filter: blur(6px) opacity(15%) saturate(1);
+    -webkit-filter: blur(6px) opacity(15%) saturate(1);
+    
+    background-position: center;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  #index {
+    position: fixed;
+    height:200%;
+    width: 80vw;
+    overflow: auto;
+    margin: 0.65cm 10% 400%;
+    
+  }
+  
+  /* header */
+  .mainhead {
+    width: auto;
+    
+    /* Glassmorphic Traits Recycled from another project */
+    /* background: linear-gradient(90deg, rgba(155,79,150,0.9) 0%, rgba(130,191,197,0.5) 100%);
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 0.3cm 0.5cm 0 rgba( 31, 38, 135, 0.37); */
+    
+  }
+
+  /* Customization */
+    
+
+  
+  @font-face {
+       font-family: "Raleway";
+       src: url("FONT/Raleway-VariableFont_wght.ttf") format('truetype');
+  }
+  
+  
+  
+  
+  
