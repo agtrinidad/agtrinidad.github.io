@@ -71,12 +71,14 @@
 
 
     transition: 
-      --bxPurple .31s ease-in;
+      --bxPurple .31s ease-in,
+      transform .31s ease-in;
     
   }
 
   .glassmorph:hover {
     --bxPurple: rgba(155,79,150,0.18);
+    transform: scale(1.01);
   }
 
   /*abusing property loopholes*/
