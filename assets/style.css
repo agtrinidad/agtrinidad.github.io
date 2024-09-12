@@ -12,14 +12,10 @@
     /* Bramus mouse tracking function */
     /* background-image: radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #3a3a3a, #272727); */
     
-    height: 100vh;
-    width: 100vw;
     color: #435;
     font-family: "Raleway";
-        align-items: center;
-    justify-content: center;
-    margin: 0;
-    overflow: hidden;
+
+
     
   
   }
@@ -40,14 +36,13 @@
   
   #index {
     position: fixed;
-
-    width: 80vw;
-
-    overflow: auto;
     margin: auto;
-    padding: 0.65cm;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    width: max(auto 80vw);
+    margin:auto;
+    overflow: auto;
+    min-height: 100vh;
+
     
   }
   
