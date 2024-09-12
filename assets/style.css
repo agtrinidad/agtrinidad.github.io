@@ -16,7 +16,10 @@
     width: 100vw;
     color: #435;
     font-family: "Raleway";
-    vertical-align:middle;
+        align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
     
   
   }
@@ -68,12 +71,12 @@
 
 
     transition: 
-      --bxPurple 0.41s ease-in;
+      --bxPurple .31s ease-in;
     
   }
 
   .glassmorph:hover {
-    --bxPurple: rgba(155,79,150,0.3);
+    --bxPurple: rgba(155,79,150,0.18);
   }
 
   /*abusing property loopholes*/
