@@ -14,8 +14,7 @@
     
     color: #435;
     font-family: "Raleway";
-
-    
+    overflow: hidden;
   
   }
 
@@ -35,7 +34,7 @@
   
   #index {
     margin: auto;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     
   }
@@ -51,13 +50,12 @@
     padding: max(20px, 2vmax);
     padding-left: max(20px, 2.4vmax);
     padding-right: max(20px, 2.4vmax);
-    border-radius: max(10px, 2vmax);
-    margin: max(10px, 2vmax);
-    line-height:12px;
+    border-radius: max(30px, 2vmax);
+    margin: max(20px, 2vmax);
+    line-height:14px;
 
     align-items: center;
     justify-content: center;
-
 
     transition: 
       --bxPurple .31s ease-in,
@@ -92,7 +90,5 @@
        src: url("Font/Raleway-VariableFont_wght.ttf") format('truetype');
   }
   
-  
-  
-  
+  /*Fun bokeh effect */
   
