@@ -14,7 +14,7 @@
     
     color: #435;
     font-family: "Raleway";
-
+    overflow: hidden;
 
     
   
@@ -38,9 +38,8 @@
     margin: auto;
     width: 100%;
 
-    overflow: auto;
+    overflow: hidden;
     min-height: 100vh;
-    padding: 1%
 
     
   }
