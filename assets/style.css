@@ -35,13 +35,12 @@
 
   
   #index {
-    position: fixed;
     margin: auto;
     width: 100%;
-    width: max(auto 80vw);
-    margin:auto;
+
     overflow: auto;
     min-height: 100vh;
+    padding: 1%
 
     
   }
