@@ -5,8 +5,6 @@
                               rgba(30,20,30,1) 25%, 
                               rgba(58,58,58,1) 100%); */
     
-    /* Bramus mouse tracking function */
-    /* background-image: radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #3a3a3a, #272727); */
     
     color: #435;
     font-family: "Raleway";
@@ -84,12 +82,9 @@
 
   /* Customization */
     
-
-  
   @font-face {
        font-family: "Raleway";
        src: url("Font/Raleway-VariableFont_wght.ttf") format('truetype');
   }
-  
-  /*Fun bokeh effect */
+
   
